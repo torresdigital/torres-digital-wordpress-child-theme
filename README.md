@@ -1,2 +1,2 @@
-# Torres Digital Wordpress Child Theme for DEv
+# Torres Digital Wordpress Child Theme for DEvs
 Child Theme to Build Arts and Lifes &lt;3
