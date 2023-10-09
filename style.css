@@ -10,10 +10,10 @@ Theme URI: https://www.facebook.com/torresdigital/
 
     Torres Digital também conta com toda uma Equipe e um Know-how forte, amplo, e moderno e conceitual para a organização e criação de todo um Portifólio para Publicidade e Propaganda.
 
-    www.torresdigital.tk * Menos é mais.
+    www.torresdigital.com.br * Menos é mais.
 
     Text Domain: torresdigital
-    Template: (( nome do tema pai aqui -- o nome do diretório do tema que você deseja modificar: Ex: astra ))
+    Template: (( insira nome do tema pai aqui. Que é o nome do diretório do tema que você deseja modificar: Ex: astra ))
     Version: 2.3.0 *//*
 
 License: GNU General Public License v2 or later
@@ -23,9 +23,6 @@ Tags: child theme, woocommerce.
 This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun, and share what you’ve learned with others.  */
 
 /*All Begin*/
-
-
-
 
 /*Padrao*/
 
@@ -51,9 +48,6 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
-
-
-
 
 /*==========  Mobile First Method  ==========*/
 
@@ -98,8 +92,6 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 @media only screen and (min-width : 1280px) {
 
 }
-
-
 
 /*=====================================================
 =            Bootstrap 2.3.2 Media Queries            =
@@ -146,7 +138,6 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 @media only screen and (max-width : 320px) {
 
 }
-
 
 /*
 Based on:
@@ -610,4 +601,4 @@ like a charm in your responsive design!
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 -moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
-/*20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png
+20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png */
