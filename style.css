@@ -660,6 +660,9 @@ like a charm in your responsive design!
 }
 
 /* Kindle Fire HD 8.9" landscape */
+/*==================================================
+=       Kindle Fire HD 8.9" landscape             =
+==================================================*/
 @media only screen
     and (min-device-width: 1200px)
     and (max-device-width: 1600px)
@@ -669,6 +672,9 @@ like a charm in your responsive design!
 }
 
 /* Laptops non-retina screens */
+/*==================================================
+=          Laptops non-retina screens             =
+==================================================*/
 @media screen
     and (min-device-width: 1200px)
     and (max-device-width: 1600px)
@@ -685,7 +691,12 @@ like a charm in your responsive design!
 
 }
 
+
+
 /* Apple Watch */
+/*==================================================
+=                   Apple Watch                   =
+==================================================*/
 @media
     (max-device-width: 42mm)
     and (min-device-width: 38mm) {
