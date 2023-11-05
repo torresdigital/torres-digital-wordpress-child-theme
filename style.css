@@ -61,6 +61,10 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 }
 /* Extra Small Devices, Phones */
+@media only screen and (min-width : 375px) {
+
+}
+/* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
 }
@@ -127,6 +131,10 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
 
 }
 /* Custom, iPhone Retina */
