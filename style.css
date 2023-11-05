@@ -613,6 +613,9 @@ like a charm in your responsive design!
 
 }
 
+
+
+
 /* Kindle Fire HD 7" portrait and landscape */
 @media only screen
     and (min-device-width: 800px)
@@ -689,12 +692,16 @@ like a charm in your responsive design!
 
 }
 
-/* Moto 360 Watch */
+
+/*==================================================
+=                   Moto 360 Watch                 =
+==================================================*/
 @media
     (max-device-width: 218px)
     and (max-device-height: 281px) {
 
 }
+
 
 
 
