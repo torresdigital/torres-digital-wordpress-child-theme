@@ -61,6 +61,10 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 }
 /* Extra Small Devices, Phones */
+@media only screen and (min-width : 375px) {
+
+}
+/* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
 }
@@ -127,6 +131,10 @@ body *:focus { outline-offset: none;  outline: none } body { background-color: #
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
 
 }
 /* Custom, iPhone Retina */
@@ -500,7 +508,7 @@ or other features for the tablet's Retina display, use the following media queri
 iPad 1 & 2 Media Queries
 If you're looking to supply different graphics or choose different typography
 for the lower resolution iPad display, the media queries below will work
-like a charm in your responsive design!
+like a charm in your 😘 responsive design ! ❤️‍🔥
 */
 
 /* iPad 1 & 2 in portrait & landscape */
@@ -576,7 +584,17 @@ like a charm in your responsive design!
 
 }
 
+/*
+   __    ___  __  __  ___    ____  _   _  _____  _  _  ____  ___ 
+  /__\  / __)(  )(  )/ __)  (  _ \( )_( )(  _  )( \( )( ___)/ __)
+ /(__)\ \__ \ )(__)( \__ \   )___/ ) _ (  )(_)(  )  (  )__) \__ \
+(__)(__)(___/(______)(___/  (__)  (_) (_)(_____)(_)\_)(____)(___/ */
+
+
 /* Asus Nexus 7 portrait and landscape */
+/*==================================================
+=             Asus Nexus 7 landscape               =
+==================================================*/
 @media screen
     and (device-width: 601px)
     and (device-height: 906px)
@@ -586,6 +604,9 @@ like a charm in your responsive design!
 }
 
 /* Asus Nexus 7 portrait */
+/*==================================================
+=             Asus Nexus 7 landscape               =
+==================================================*/
 @media screen
     and (device-width: 601px)
     and (device-height: 906px)
@@ -596,6 +617,9 @@ like a charm in your responsive design!
 }
 
 /* Asus Nexus 7 landscape */
+/*==================================================
+=             Asus Nexus 7 landscape               =
+==================================================*/
 @media screen
     and (device-width: 601px)
     and (device-height: 906px)
@@ -605,7 +629,15 @@ like a charm in your responsive design!
 
 }
 
-/* Kindle Fire HD 7" portrait and landscape */
+/*
+ _  _  ____  _  _  ____  __    ____ 
+( )/ )(_  _)( \( )(  _ \(  )  ( ___)
+ )  (  _)(_  )  (  )(_) ))(__  )__) 
+(_)\_)(____)(_)\_)(____/(____)(____) */
+
+/*==================================================
+=  Kindle Fire HD 7" portrait and landscape        =
+==================================================*/
 @media only screen
     and (min-device-width: 800px)
     and (max-device-width: 1280px)
@@ -613,7 +645,9 @@ like a charm in your responsive design!
 
 }
 
-/* Kindle Fire HD 7" portrait */
+/*==================================================
+=           Kindle Fire HD 7" portrait             =
+==================================================*/
 @media only screen
     and (min-device-width: 800px)
     and (max-device-width: 1280px)
@@ -622,7 +656,9 @@ like a charm in your responsive design!
 
 }
 
-/* Kindle Fire HD 7" landscape */
+/*==================================================
+=           Kindle Fire HD 7" landscape           =
+==================================================*/
 @media only screen
     and (min-device-width: 800px)
     and (max-device-width: 1280px)
@@ -631,7 +667,9 @@ like a charm in your responsive design!
 
 }
 
-/* Kindle Fire HD 8.9" portrait and landscape */
+/*==================================================
+=   Kindle Fire HD 8.9" portrait and landscape     =
+==================================================*/
 @media only screen
     and (min-device-width: 1200px)
     and (max-device-width: 1600px)
@@ -639,7 +677,9 @@ like a charm in your responsive design!
 
 }
 
-/* Kindle Fire HD 8.9" portrait */
+/*==================================================
+=         Kindle Fire HD 8.9" portrait            =
+==================================================*/
 @media only screen
     and (min-device-width: 1200px)
     and (max-device-width: 1600px)
@@ -649,6 +689,9 @@ like a charm in your responsive design!
 }
 
 /* Kindle Fire HD 8.9" landscape */
+/*==================================================
+=       Kindle Fire HD 8.9" landscape             =
+==================================================*/
 @media only screen
     and (min-device-width: 1200px)
     and (max-device-width: 1600px)
@@ -657,7 +700,20 @@ like a charm in your responsive design!
 
 }
 
-/* Laptops non-retina screens */
+
+
+/*
+ ____  ____  ____  ____  _  _    __   
+(  _ \( ___)(_  _)(_  _)( \( )  /__\  
+ )   / )__)   )(   _)(_  )  (  /(__)\ 
+(_)\_)(____) (__) (____)(_)\_)(__)(__)
+
+ Laptops non-retina screens */
+
+
+/*==================================================
+=          Laptops non-retina screens             =
+==================================================*/
 @media screen
     and (min-device-width: 1200px)
     and (max-device-width: 1600px)
@@ -674,14 +730,28 @@ like a charm in your responsive design!
 
 }
 
-/* Apple Watch */
+
+/* 
+ _    _    __   ____  ___  _   _  ____  ___ 
+( \/\/ )  /__\ (_  _)/ __)( )_( )( ___)/ __)
+ )    (  /(__)\  )( ( (__  ) _ (  )__) \__ \
+(__/\__)(__)(__)(__) \___)(_) (_)(____)(___/ 
+
+Apple Watch  */
+
+/*==================================================
+=                   Apple Watch                   =
+==================================================*/
 @media
     (max-device-width: 42mm)
     and (min-device-width: 38mm) {
 
 }
 
-/* Moto 360 Watch */
+
+/*==================================================
+=                   Moto 360 Watch                 =
+==================================================*/
 @media
     (max-device-width: 218px)
     and (max-device-height: 281px) {
@@ -690,9 +760,17 @@ like a charm in your responsive design!
 
 
 
-/* 1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
+
+/* 
+
+Notes
+
+1.0 Normalize Styles based on Normalize v5.0.0 @link https: //github.com/necolas/normalize.css
 @import url('https://www.fontify.me/wf/d1e0123011c04b12846e626981f6fdd4');
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 -moz-osx-font-smoothing: grayscale; linear-gradient(to right, #58c7ec, #51ff6c)
-20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png */
+20.0 Print /http://bridgelanding.app/wp-content/uploads/2017/06/logo-stick.png 
+
+
+*/
