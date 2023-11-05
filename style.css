@@ -508,7 +508,7 @@ or other features for the tablet's Retina display, use the following media queri
 iPad 1 & 2 Media Queries
 If you're looking to supply different graphics or choose different typography
 for the lower resolution iPad display, the media queries below will work
-like a charm in your responsive design!
+like a charm in your 😘 responsive design ! ❤️‍🔥
 */
 
 /* iPad 1 & 2 in portrait & landscape */
@@ -584,13 +584,17 @@ like a charm in your responsive design!
 
 }
 
+/*
    __    ___  __  __  ___    ____  _   _  _____  _  _  ____  ___ 
   /__\  / __)(  )(  )/ __)  (  _ \( )_( )(  _  )( \( )( ___)/ __)
  /(__)\ \__ \ )(__)( \__ \   )___/ ) _ (  )(_)(  )  (  )__) \__ \
-(__)(__)(___/(______)(___/  (__)  (_) (_)(_____)(_)\_)(____)(___/
+(__)(__)(___/(______)(___/  (__)  (_) (_)(_____)(_)\_)(____)(___/ */
 
 
 /* Asus Nexus 7 portrait and landscape */
+/*==================================================
+=             Asus Nexus 7 landscape               =
+==================================================*/
 @media screen
     and (device-width: 601px)
     and (device-height: 906px)
@@ -625,10 +629,11 @@ like a charm in your responsive design!
 
 }
 
+/*
  _  _  ____  _  _  ____  __    ____ 
 ( )/ )(_  _)( \( )(  _ \(  )  ( ___)
  )  (  _)(_  )  (  )(_) ))(__  )__) 
-(_)\_)(____)(_)\_)(____/(____)(____)
+(_)\_)(____)(_)\_)(____/(____)(____) */
 
 /*==================================================
 =  Kindle Fire HD 7" portrait and landscape        =
@@ -697,13 +702,15 @@ like a charm in your responsive design!
 
 
 
-
+/*
  ____  ____  ____  ____  _  _    __   
 (  _ \( ___)(_  _)(_  _)( \( )  /__\  
  )   / )__)   )(   _)(_  )  (  /(__)\ 
 (_)\_)(____) (__) (____)(_)\_)(__)(__)
 
-/* Laptops non-retina screens */
+ Laptops non-retina screens */
+
+
 /*==================================================
 =          Laptops non-retina screens             =
 ==================================================*/
@@ -724,14 +731,14 @@ like a charm in your responsive design!
 }
 
 
-
+/* 
  _    _    __   ____  ___  _   _  ____  ___ 
 ( \/\/ )  /__\ (_  _)/ __)( )_( )( ___)/ __)
  )    (  /(__)\  )( ( (__  ) _ (  )__) \__ \
-(__/\__)(__)(__)(__) \___)(_) (_)(____)(___/
+(__/\__)(__)(__)(__) \___)(_) (_)(____)(___/ 
 
+Apple Watch  */
 
-/* Apple Watch */
 /*==================================================
 =                   Apple Watch                   =
 ==================================================*/
