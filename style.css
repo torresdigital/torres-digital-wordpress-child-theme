@@ -413,8 +413,9 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
     and (orientation: portrait) {
 
 }
-
-/* Galaxy S4 landscape */
+/*==================================================
+=               Galaxy S4 landscape                =
+==================================================*/
 @media screen
     and (device-width: 320px)
     and (device-height: 640px)
@@ -423,7 +424,9 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
 
 }
 
-/* Galaxy S5 portrait and landscape */
+/*==================================================
+=       Galaxy S5 portrait and landscape          =
+==================================================*/
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
@@ -431,7 +434,9 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
 
 }
 
-/* Galaxy S5 portrait */
+/*==================================================
+=               Galaxy S5 portrait                =
+==================================================*/
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
@@ -441,6 +446,9 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
 }
 
 /* Galaxy S5 landscape */
+/*==================================================
+=               Galaxy S4 landscape                =
+==================================================*/
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
