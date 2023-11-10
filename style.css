@@ -719,7 +719,6 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
 }
 
 
-
 /*
  ____  ____  ____  ____  _  _    __   
 (  _ \( ___)(_  _)(_  _)( \( )  /__\  
@@ -727,8 +726,6 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
 (_)\_)(____) (__) (____)(_)\_)(__)(__)
 
  Laptops non-retina screens */
-
-
 /*==================================================
 =          Laptops non-retina screens             =
 ==================================================*/
@@ -739,7 +736,9 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
 
 }
 
-/* Laptops retina screens */
+/*==================================================
+=             Laptops retina screens              =
+==================================================*/
 @media screen
     and (min-device-width: 1200px)
     and (max-device-width: 1600px)
