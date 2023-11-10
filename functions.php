@@ -11,7 +11,7 @@ Theme URI: https://www.facebook.com/torresdigital/
 
     Torres Digital também conta com toda uma Equipe e um Know-how forte, amplo, e moderno e conceitual para a organização e criação de todo um Portifólio para Publicidade e Propaganda.
     
-    www.torresdigital.tk * Menos é mais.
+    www.torresdigital.com.br * Menos é mais.
 
     Text Domain: torresdigital
     Template: torresdigital
