@@ -459,10 +459,6 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
 
 
 
-
-
-
-
 /* HTC One portrait and landscape */
 @media screen
     and (device-width: 360px)
