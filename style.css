@@ -577,7 +577,9 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
 
 }
 
-/* Galaxy Tab 10.1 portrait */
+/*==================================================
+=            Galaxy Tab 10.1 portrait             =
+==================================================*/
 @media
     (max-device-width: 800px)
     and (orientation: portrait) {
