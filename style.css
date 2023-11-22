@@ -339,7 +339,9 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
 
 }
 
-/* iPad in portrait */
+/*==================================================
+=                 iPad in portrait                =
+==================================================*/
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
