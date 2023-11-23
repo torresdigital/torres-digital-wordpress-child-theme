@@ -313,8 +313,9 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
     and (orientation : landscape) {
 
 }
-
-/* iPhone 2G-4S in portrait */
+/*==================================================
+=            iPhone 2G-4S in portrait            =
+==================================================*/
 @media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px)
