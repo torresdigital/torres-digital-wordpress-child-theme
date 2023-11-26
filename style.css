@@ -477,7 +477,10 @@ It's noteworthy that these media queries are also the same for iPod Touch genera
 
 }
 
-/* Landscape */
+/*==================================================
+=                   Landscape                     =
+==================================================*/
+
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen 
