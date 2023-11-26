@@ -1,6 +1,6 @@
 <?php
 
-/* Theme Name: --- by 🌟Torres Digital®
+/* Theme Child created by : 🌟Torres Digital®
 
 Theme URI: https://www.facebook.com/torresdigital/
 
@@ -13,86 +13,61 @@ Theme URI: https://www.facebook.com/torresdigital/
     
     www.torresdigital.com.br * Menos é mais.
 
-    Text Domain: torresdigital
-    Template: torresdigital
-    Version: 2.0 *//*
+    Text Domain: PUT YOU TEXT DOMAIN HERE
+    Template: PUT YOU DIRECTORY NAME HERE
+    Version: PUT YOU VERSION THEME HERE
 
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Tags: child theme, woocommerce
-Text Domain: torresdigital
-This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun, and share what you’ve learned with others.  */
 
 /*All Begin*/
 
 
-function my_theme_enqueue_styles() {
+/* ********************* All Begin ********************* */
 
-    $parent_style = 'parent-style'; // This is 'twentyfifteen-style' for the Twenty Fifteen theme.
 
-    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'child-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array( $parent_style ),
-        wp_get_theme()->get('Version')
-    );
+
+// Exit if accessed directly
+if ( !defined( 'ABSPATH' ) ) exit;
+
+// BEGIN ENQUEUE PARENT ACTION
+// AUTO GENERATED - Do not modify or remove comment markers above or below:
+
+if ( !function_exists( 'chld_thm_cfg_locale_css' ) ):
+    function chld_thm_cfg_locale_css( $uri ){
+        if ( empty( $uri ) && is_rtl() && file_exists( get_template_directory() . '/rtl.css' ) )
+            $uri = get_template_directory_uri() . '/rtl.css';
+        return $uri;
+    }
+endif;
+add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
+
+if ( !function_exists( 'chld_thm_cfg_parent_css' ) ):
+    function chld_thm_cfg_parent_css() {
+        wp_enqueue_style( 'chld_thm_cfg_parent', trailingslashit( get_template_directory_uri() ) . 'style.css', array(  ) );
+    }
+endif;
+add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
+
+// END ENQUEUE PARENT ACTION
+
+/*wOOCOmmerce Support*/
+function torres_digital_add_woocommerce_support() {
+add_theme_support( 'woocommerce' );
 }
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-
-/* registrando scripts */
-add_action("wp_enqueue_scripts", "scripts");
-function myscripts() { 
-    wp_register_script('tdwct', 
-                        get_template_directory_uri() .'/scripts.js',   //
-                        array ('jquery', 'jquery-ui'),                  //depends on these, however, they are registered by core already, so no need to enqueue them.
-                        false, false);
-    wp_enqueue_script('tdwct');
-      
-}
-
-/****
-    * Registrando Scripts v.2 *
-    */
-
-/* Registrando Scripts v.2 *
-function my_enqueue_scripts()
-{
-    wp_register_script( 'first', get_template_directory_uri() . 'js/first.js' );
- 
-    wp_enqueue_script( 'second', get_template_directory_uri() . 'js/second.js', array( 'first' ) );
-}
-add_action( 'wp_enqueue_scripts', 'my_enqueue_scripts' ); 
-
-*/
+add_action( 'after_setup_theme', 'torres_digital_add_woocommerce_support' );
 
 
-/****
-    * Registrando Scripts v.3 *
-    */
-
-/* Registrando Scripts v.3 *
-
-function myscripts() {
-    //get some external script that is needed for this script
-    wp_enqueue_script('jquery-ui', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js'); 
-    $script = get_template_directory_uri() . '/library/myscript.js';
-    wp_register_script('myfirstscript', 
-                        $script, 
-                        array ('jquery', 'jquery-ui'), 
-                        false, false);
-    //always enqueue the script after registering or nothing will happen
-    wp_enqueue_script('fullpage-slimscroll');
-     
-}
-add_action("wp_enqueue_scripts", "myscripts");
-
-/**
+/** Site Login logo
     * Change the login page icon and URL to our site instead of WordPress.org
     */
     add_filter( 'login_headerurl', 'xs_login_headerurl' );
     function xs_login_headerurl( $url ) {
-    return esc_url(  'https://www.torresdigital.tk.'  );
+	    
+	/* PUT HERE A LINK FOR YOU WEBSITE */
+    return esc_url(  'https://www.mysite.com.'  ); 
+	    
     }
     add_filter( 'login_headertitle', 'xs_login_headertitle' );
     function xs_login_headertitle( $title ) {
@@ -100,9 +75,10 @@ add_action("wp_enqueue_scripts", "myscripts");
     }
 
 
-/* Outros */
 
- /** Font Awesome, by Torres Digital */
+ /** Font Awesome **/
+
+/* NOTE !, we are using a Fontwaesome on 4.x version - are freee ! */
   function theme_enqueue_styles() {
     $parent_style = 'parent-style';
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
@@ -141,10 +117,6 @@ add_action("wp_enqueue_scripts", "myscripts");
     }
 
     new iWC_Orderby_Stock_Status;
-
-
-    /*
-
     function child_shophistic_theme_enqueue_styles() {
 
 	//First we load Bootstrap from parent, then parent styles and then child styles
@@ -163,6 +135,7 @@ add_action("wp_enqueue_scripts", "myscripts");
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
     ) );
+
     register_sidebar( array(
     'name' => 'Footer Sidebar 2',
     'id' => 'footer-sidebar-2',
@@ -172,6 +145,7 @@ add_action("wp_enqueue_scripts", "myscripts");
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
     ) );
+
     register_sidebar( array(
     'name' => 'Footer Sidebar 3',
     'id' => 'footer-sidebar-3',
@@ -181,6 +155,7 @@ add_action("wp_enqueue_scripts", "myscripts");
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
     ) );
+
     register_sidebar( array(
     'name' => 'Footer Sidebar 4',
     'id' => 'footer-sidebar-4',
@@ -195,7 +170,7 @@ add_action("wp_enqueue_scripts", "myscripts");
     function my_login_logo_one() {  ?> 
         <style type="text/css"> 
         body.login div#login h1 a {
-            background-image: url(/wp-content/uploads/2018/10/logo-sites-torresdigital.png);
+            background-image: url(/wp-content/uploads/2018/10/YOU-LOGO-NAME.png);
             background-size: 70%;
             width: 100%;
             height: 237px;
@@ -206,3 +181,4 @@ add_action("wp_enqueue_scripts", "myscripts");
                                     }
         </style> 
     <?php  } add_action( 'login_enqueue_scripts', 'my_login_logo_one' );
+
