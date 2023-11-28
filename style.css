@@ -268,7 +268,9 @@ Based on:
 
 /* ----------- iPhone X ----------- */
 
-/* Portrait and Landscape */
+/*==================================================
+=         iPhone X Portrait and Landscape          =
+==================================================*/
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
