@@ -735,7 +735,10 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
 
 }
 
-/* iPad mini in landscape */
+/*==================================================
+=              iPad mini in landscape              =
+==================================================*/
+
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
@@ -744,7 +747,10 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
 
 }
 
-/* iPad mini in portrait */
+/*==================================================
+=             iPad mini in portrait               =
+==================================================*/
+
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
@@ -917,7 +923,6 @@ Kindle */
 
 Retina */
                                  
-
 
 /*==================================================
 =          Laptops non-retina screens             =
