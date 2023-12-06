@@ -726,8 +726,10 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
     and (-webkit-min-device-pixel-ratio: 1) {
 
 }
+/*==================================================
+=        iPad mini in portrait & landscape         =
+==================================================*/
 
-/* iPad mini in portrait & landscape */
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
