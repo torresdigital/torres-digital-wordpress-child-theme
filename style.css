@@ -698,9 +698,14 @@ or other features for the tablet's Retina display, use the following media queri
 
 /*
 iPad 1 & 2 Media Queries
+
 If you're looking to supply different graphics or choose different typography
 for the lower resolution iPad display, the media queries below will work
 like a charm in your 😘 responsive design ! ❤️‍🔥
+
+Sobre a descrição acima: as regras definidas abaixo farão com que uma determinada
+tipografia ou imagens em alta resolução trabalhem bem com a baixa resolução dos
+iPads nas verões 1 e 2.
 */
 
 
