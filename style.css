@@ -626,8 +626,7 @@ Galaxi Phones */
 
 }
 
-/*               
-                               
+/*                                              
  _____ _____ _____    _____ _____ _____ 
 |  |  |_   _|     |  |     |   | |   __|
 |     | | | |   --|  |  |  | | | |   __|
@@ -685,7 +684,10 @@ or other features for the tablet's Retina display, use the following media queri
 
 }
 
-/* Retina iPad in portrait */
+/*==================================================
+=            Retina iPad in portrait               =
+==================================================*/
+
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
@@ -701,13 +703,18 @@ for the lower resolution iPad display, the media queries below will work
 like a charm in your 😘 responsive design ! ❤️‍🔥
 */
 
-/* iPad 1 & 2 in portrait & landscape */
+
+/*==================================================
+=       iPad 1 & 2 in portrait & landscape         =
+==================================================*/
+
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
     and (-webkit-min-device-pixel-ratio: 1) {
 
 }
+
 /*==================================================
 =             iPad 1 & 2 in landscape              =
 ==================================================*/
@@ -731,6 +738,7 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
     and (-webkit-min-device-pixel-ratio: 1) {
 
 }
+
 /*==================================================
 =        iPad mini in portrait & landscape         =
 ==================================================*/
@@ -763,6 +771,7 @@ like a charm in your 😘 responsive design ! ❤️‍🔥
     and (max-device-width : 1024px)
     and (orientation : portrait)
     and (-webkit-min-device-pixel-ratio: 1) {
+
 
 }
 
@@ -803,7 +812,6 @@ Galaxi Tabs */
 }
 
 /*
-
  _____ _____ _____ _____    _____ _____ _____ _____ _____ _____ 
 |  _  |   __|  |  |   __|  |  _  |  |  |     |   | |   __|   __|
 |     |__   |  |  |__   |  |   __|     |  |  | | | |   __|__   |
