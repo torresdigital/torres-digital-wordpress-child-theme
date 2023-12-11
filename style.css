@@ -665,9 +665,16 @@ iPad 3 & 4 Media Queries
 If you're looking to target only 3rd and 4th generation Retina iPads
 (or tablets with similar resolution) to add @2x graphics,
 or other features for the tablet's Retina display, use the following media queries.
+
+As regras de cima determinam que se você precisa de uma determinada regra de media querie
+para Tablets de 3° ou 4° Geração ou tablets com resoluções similares a estes dois exemploes
+para adicionar tipografia ou graficos com uma maior qualidade de resolução, use as regras abaixo.
 */
 
-/* Retina iPad in portrait & landscape */
+/*==================================================
+=       Retina iPad in portrait & landscape        =
+==================================================*/
+
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
