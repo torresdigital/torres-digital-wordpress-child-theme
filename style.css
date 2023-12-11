@@ -651,7 +651,10 @@ HTC One */
 
 }
 
-/* HTC One landscape */
+/*==================================================
+=                HTC One landscape                 =
+==================================================*/
+/*  */
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
