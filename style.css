@@ -634,7 +634,10 @@ Galaxi Phones */
 
 HTC One */
 
-/* HTC One portrait and landscape */
+/*==================================================
+=          HTC One portrait and landscape          =
+==================================================*/
+
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
