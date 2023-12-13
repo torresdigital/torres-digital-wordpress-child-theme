@@ -642,7 +642,10 @@ HTC One */
 
 }
 
-/* HTC One portrait */
+/*==================================================
+=                HTC One portrait                 =
+==================================================*/
+
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
@@ -654,7 +657,7 @@ HTC One */
 /*==================================================
 =                HTC One landscape                 =
 ==================================================*/
-/*  */
+
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
