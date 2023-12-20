@@ -864,9 +864,9 @@ Galaxi Tabs */
 aSus Phones*/
 
 
-/* Asus Nexus 7 portrait and landscape */
+/*  */
 /*==================================================
-=             Asus Nexus 7 landscape               =
+=       Asus Nexus 7 portrait and landscape        =
 ==================================================*/
 @media screen
     and (device-width: 601px)
@@ -876,9 +876,8 @@ aSus Phones*/
 
 }
 
-/* Asus Nexus 7 portrait */
 /*==================================================
-=             Asus Nexus 7 landscape               =
+=             Asus Nexus 7 portrait               =
 ==================================================*/
 @media screen
     and (device-width: 601px)
