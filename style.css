@@ -658,7 +658,6 @@ HTC One */
 /*==================================================
 =          HTC One portrait and landscape          =
 ==================================================*/
-
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
@@ -669,7 +668,6 @@ HTC One */
 /*==================================================
 =                HTC One portrait                 =
 ==================================================*/
-
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
@@ -681,7 +679,6 @@ HTC One */
 /*==================================================
 =                HTC One landscape                 =
 ==================================================*/
-
 @media screen
     and (device-width: 360px)
     and (device-height: 640px)
@@ -704,7 +701,6 @@ para adicionar tipografia ou graficos com uma maior qualidade de resolução, us
 /*==================================================
 =       Retina iPad in portrait & landscape        =
 ==================================================*/
-
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
@@ -726,7 +722,6 @@ para adicionar tipografia ou graficos com uma maior qualidade de resolução, us
 /*==================================================
 =            Retina iPad in portrait               =
 ==================================================*/
-
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
@@ -751,7 +746,6 @@ iPads nas verões 1 e 2.
 /*==================================================
 =       iPad 1 & 2 in portrait & landscape         =
 ==================================================*/
-
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
