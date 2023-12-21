@@ -249,7 +249,9 @@ Based on:
 
 }
 
-/* Portrait */
+/*==================================================
+=          iPhone 6+, 7+ and 8+ Portrait          =
+==================================================*/
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
@@ -258,7 +260,9 @@ Based on:
 
 }
 
-/* Landscape */
+/*==================================================
+=         iPhone 6+, 7+ and 8+ Landscape          =
+==================================================*/
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
