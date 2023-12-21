@@ -504,7 +504,6 @@ iPad Pro 12.9 */
 /*==================================================
 =       iPad Pro 12.9 Portrait and Landscape       =
 ==================================================*/
-
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px)
@@ -515,7 +514,6 @@ iPad Pro 12.9 */
 /*==================================================
 =             iPad Pro 12.9  Portrait             =
 ==================================================*/
-
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 
@@ -530,7 +528,6 @@ iPad Pro 12.9 */
 /*==================================================
 =              iPad Pro 12.9 Landscape              =
 ==================================================*/
-
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 
