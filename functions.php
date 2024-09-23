@@ -88,6 +88,8 @@ add_action( 'after_setup_theme', 'torres_digital_add_woocommerce_support' );
         array( $parent_style )
     );
 }
+
+/* WOOCOMMERCE */
     /**
      * Order product collections by stock status, instock products first.
      * https://stackoverflow.com/questions/25113581/show-out-of-stock-products-at-the-end-in-woocommerce
