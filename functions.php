@@ -14,7 +14,7 @@ Theme URI: https://www.facebook.com/torresdigital/
     www.torresdigital.com.br * Menos é mais.
 
     Text Domain: PUT YOU TEXT DOMAIN HERE
-    Template: PUT YOU DIRECTORY NAME HERE
+    Template: PUT YOU DIRECTORY NAME HERE ( e.g. ASTRA, folder name )
     Version: PUT YOU VERSION THEME HERE
 
 License: GNU General Public License v2 or later
