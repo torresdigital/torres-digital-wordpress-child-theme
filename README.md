@@ -9,3 +9,5 @@ This is a building template for Child Themes in wordpress. It already comes with
 ## use the theme to build or own websites and e-commerces using wordpress and woocommerce
 
 ![torres-digital-screen-shot-github-copilot](https://github.com/atorresbr/torres-digital-wordpress-child-theme-for-devs/assets/13744483/f369d4df-43a5-4502-b3da-c5778a13e0a2)
+
+<a href="https://www.facebook.com/watch/?v=1370285286677688">Torres Digital | Sites → Lojas virtuais e e-Commerce.</a>
