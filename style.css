@@ -109,7 +109,19 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 =            Bootstrap 2.3.2 Media Queries            =
 =====================================================*/
 /* Large Devices, Wide Screens */
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1680px) {
+
+}
+
 @media only screen and (min-width : 1440px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1366px) {
 
 }
 
@@ -122,6 +134,12 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 @media only screen and (max-width : 1200px) {
 
 }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1112px) {
+
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {
 
@@ -132,12 +150,36 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 
 }
 
+@media only screen and (max-width : 834px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 812px) {
+
+}
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 736px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 667px) {
+
+}
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 643px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 568px) {
 
 }
 
