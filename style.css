@@ -60,25 +60,54 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 @media only screen and (min-width : 360px) {
 
 }
+
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 375px) {
 
 }
+
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 415px) {
+@media only screen and (min-width : 414px) {
 
 }
+
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
 }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 568px) {
+
+}
+
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 643px) {
 
 }
 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 667px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 736px) {
+
+}
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 812px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 834px) {
 
 }
 
@@ -92,16 +121,38 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 
 }
 
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 1012px) {
+
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }
+
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1280px) {
 
 }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1366px) {
+
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1440px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1680px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1920px) {
 
 }
 
@@ -189,7 +240,7 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 415px) {
+@media only screen and (min-width : 414px) {
 
 }
 
@@ -201,6 +252,7 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 @media only screen and (max-width : 360px) {
 
 }
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
@@ -210,9 +262,13 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 /* ----------- iPhones ----------- */
 
 /*
+
 Based on:
+
 1. http://stephen.io/mediaqueries
 2. https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+3. https://devfacts.com/media-queries-breakpoints/
+
 */
 
 /* ----------- iPhone 4 and 4S ----------- */
